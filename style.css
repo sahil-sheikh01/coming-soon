@@ -65,9 +65,9 @@ h3{
 .rocket{
     width: 250px;
     position: absolute;
-    bottom: 0;
+    bottom: -250px;
     right: 10%;
-    animation: rocket 5s linear infinite;
+    animation: rocket 8s ease-out infinite;
 }
 @keyframes rocket{
     0%{
@@ -75,7 +75,7 @@ h3{
         opacity: 0;
     }
     100%{
-        transform: translateY(-120vh);
+        transform: translateY(-150vh);
         opacity: 1;
     }
 }
