@@ -71,11 +71,11 @@ h3{
 }
 @keyframes rocket{
     0%{
-        bottom: 0;
+        transform: translateY(0);
         opacity: 0;
     }
     100%{
-        bottom: 100%;
+        transform: translateY(-120vh);
         opacity: 1;
     }
 }
