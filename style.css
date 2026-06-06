@@ -12,6 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 0 8%;
+    overflow: hidden;
     position: relative;
 }
 h3{
